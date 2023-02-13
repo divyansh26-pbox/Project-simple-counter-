@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valentine's Day Proposal</title>
+  <style>
+    body {
+      background-color: pink;
+      text-align: center;
+    }
+    h1 {
+      font-size: 72px;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .box {
+      background-color: white;
+      width: 500px;
+      height: 300px;
+      margin: 100px auto;
+      padding: 50px;
+      border-radius: 25px;
+      box-shadow: 2px 2px 4px #000000;
+    }
+    button {
+      background-color: pink;
+      color: white;
+      border-radius: 12px;
+      padding: 20px 40px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Will You Be My Valentine?</h1>
+  <div class="box">
+    <p>I want to spend every Valentine's Day and every day in between with you. Will you be my Valentine and make all my dreams come true?</p>
+    <p>Will you be my Valentine my Kaju baby ?</p>
+    <button id="yes">Yes</button>
+    <button id="no">No</button>
+  </div>
+
+  <script>
+    const yesButton = document.getElementById("yes");
+    const noButton = document.getElementById("no");
+
+    yesButton.addEventListener("click", function() {
+      alert("I'm so happy I love you soo much!");
+    });
+
+    noButton.addEventListener("click", function() {
+      alert("Chup chap yes pe click kro.");
+    });
+  </script>
+</body>
+</html>
